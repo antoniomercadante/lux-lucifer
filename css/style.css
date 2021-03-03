@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ham-menu {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+header {
+  height: 100vh;
+  background-color: rgb(230, 56, 100);
+  background: linear-gradient(to right, #f51919ad, #950e0e4b),
+    url("../img/pexels-sebastian-ervi-1763075.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  height: 8vh;
+  padding: 0.4rem;
+  background-color: wheat;
+  opacity: 0.8;
+}
+
+.container-luci {
+  opacity: 0.6;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  bottom: 0px;
+}
+
+.banner {
+}
+.banner .devil {
+  color: red;
+}
+
+.container-luci img {
+}
+
+.events-title {
+  background-color: black;
+  color: aliceblue;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+.events-title p {
+  padding: 2rem;
+}
+
+.events {
+  height: 100vh;
+}
